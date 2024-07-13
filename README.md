@@ -3,6 +3,17 @@
 ## Description
 
 MediCare is a comprehensive, doctor-friendly tablet-based application designed to streamline healthcare workflows and enhance the efficiency of healthcare delivery. Developed using Spring Boot, Spring Scheduler, React Native with Expo, MySQL, JWT, AES Encryption, QR code, and Twilio, MediCare offers secure management of patient consent for electronic health records and facilitates seamless collaboration across various modules.
+## Table of Contents
+
+- [Key Features](#features)
+- [Modules](#modules)
+- [Security](#security)
+- [Notifications](#notifications)
+- [Data Management](#data-management)
+- [My Contribution](#my-contribution)
+- [Installation](#installation)
+- [Contributions](#contributions)
+
 
 ## Key Features
 
