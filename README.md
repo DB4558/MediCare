@@ -1,4 +1,4 @@
-# Medicare:A tablet based app for busy doctors
+# Medicare:A tablet based application for busy doctors
 
 ## Description
 
@@ -60,7 +60,7 @@ MediCare is a comprehensive, doctor-friendly tablet-based application designed t
 
     Consent Management: Patient consent can be revoked when necessary, and consent automatically expires after one week. Patient data is deleted entirely three years after the last visit.
 
-## Project Details
+## My Contributions:
 
 This project is a group effort. I specifically implemented the following features:
 
@@ -75,7 +75,47 @@ This project is a group effort. I specifically implemented the following feature
 
 ## Getting Started
 **Prerequisites**
-
     Expo CLI
     Java Development Kit (JDK)
     MySQL
+
+### Backend Setup
+
+1. **Clone the repository:**
+    ```bash
+       git clone https://github.com/DB4558/Medicare.git
+       cd Medicare
+2. **Configure the database in src/main/resources/application.properties:**
+
+
+   ```bash
+
+      spring.datasource.url=jdbc:mysql://localhost:3306/medicare
+      spring.datasource.username=root
+      spring.datasource.password=yourpassword
+
+4. **Build and run the backend:**
+
+      ```bash
+
+          mvn clean install
+          mvn spring-boot:run
+
+5. **Frontend Setup**
+
+    Clone the repository:
+
+    ```bash
+
+      git clone https://github.com/DB4558/HADFE.git
+      cd HADFE
+
+6. **Install dependencies and run the frontend:**
+
+   ```bash
+
+       npm install
+       npm start
+
+
+  
