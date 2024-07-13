@@ -12,7 +12,9 @@ MediCare is a comprehensive, doctor-friendly tablet-based application designed t
 - [Data Management](#data-management)
 - [My Contribution](#my-contribution)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Contributions](#contributions)
+- [Acknowledgements](#acknowledgement)
 
 
 ## Key Features
@@ -85,7 +87,7 @@ This project is a group effort. I specifically implemented the following feature
     8.Consent Management
     9. Other secutity features like automatic logout,email-password encryption,sesssion management,ip address matching to ensure secutiy etc
 
-## Getting Started
+## Installation
 **Prerequisites**
     Expo CLI
     Java Development Kit (JDK)
@@ -113,21 +115,28 @@ This project is a group effort. I specifically implemented the following feature
           mvn clean install
           mvn spring-boot:run
 
-5. **Frontend Setup**
+ ## Frontend Setup
 
-    Clone the repository:
+   1.**Clone the repository:**
 
     ```bash
 
       git clone https://github.com/DB4558/HADFE.git
       cd HADFE
 
-6. **Install dependencies and run the frontend:**
+2. **Install dependencies and run the frontend:**
 
    ```bash
 
        npm install
        npm start
+## Usage
+
+    Doctors: Use the tablet application to manage patient records, write prescriptions, and schedule appointments.
+    Nurses: Record patient vitals and symptoms, and upload medical records for doctor review.
+    Receptionists: Manage patient appointments, allocate doctors, and handle consent forms.
+    Pharmacy: Serve medications and manage inventory.
+    Admin: Oversee all operations and ensure compliance with data security regulations.
 
 ## Contribution:
 
@@ -137,6 +146,9 @@ This project is a group effort. I specifically implemented the following feature
     Commit your changes (git commit -am 'Add new feature')
     Push to the branch (git push origin feature-branch)
     Create a new Pull Request   
+## Acknowledgements
+
+This project is a group effort. Special thanks to all team members for their hard work and dedication.
 
 
   
