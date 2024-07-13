@@ -71,7 +71,8 @@ This project is a group effort. I specifically implemented the following feature
     5. Twilio notification management.
     6. Backend Spring schedulers.
     7. AES encryption of database(confidential data)
-    8. Other secutity features like automatic logout,email-password encryption,sesssion management,ip address matching to ensure secutiy etc
+    8.Consent Management
+    9. Other secutity features like automatic logout,email-password encryption,sesssion management,ip address matching to ensure secutiy etc
 
 ## Getting Started
 **Prerequisites**
@@ -116,6 +117,15 @@ This project is a group effort. I specifically implemented the following feature
 
        npm install
        npm start
+
+## Contribution:
+
+
+    Fork the repository
+    Create a new branch (git checkout -b feature-branch)
+    Commit your changes (git commit -am 'Add new feature')
+    Push to the branch (git push origin feature-branch)
+    Create a new Pull Request   
 
 
   
